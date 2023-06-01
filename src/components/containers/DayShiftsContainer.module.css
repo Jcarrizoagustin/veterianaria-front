@@ -1,0 +1,13 @@
+.container{
+  width: 40rem;
+  height: 40rem;
+  border-radius:1rem ;
+  background-color: azure;
+
+  overflow-y: scroll;
+}
+
+.title{
+  font-size: 1.5rem;
+  color: black;
+}

@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 7rem;
+  background-color: #4831D4;
+}
