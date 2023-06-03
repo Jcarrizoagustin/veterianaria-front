@@ -1,7 +1,58 @@
 .shift {
-  margin-left: 2rem;
-  width: 70%;
+  margin:0 auto;
+  width: 90%;
   height: 7rem;
+  border-radius: 1rem;
   border: 1px solid green;
-  background-color: aquamarine;
+  
+
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.petData{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: self-start;
+}
+
+.petDataTitle{
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+}
+
+.shiftHour, .shiftType{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.buttonsActions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  border-radius: .3rem;
+  border: none;
+  width: 7rem;
+  height: 2rem;
+  color: white;
+}
+
+.buttonComplete {
+  background-color: #00a474;
+}
+
+.buttonCancel {
+  background-color: #e31749;
+}
+
+.button:hover{
+  cursor: pointer;
 }
