@@ -1,0 +1,19 @@
+.pet {
+  width: 80%;
+  min-height: 7rem;
+
+  padding: .5rem 1rem;
+
+  background-color: pink;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

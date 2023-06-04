@@ -8,16 +8,16 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <Link to={"/"}>
+      <Link className={styles.icon} to={"/"}>
         <AiFillHome className={styles.icon} />
       </Link>
-      <Link to={"/mascotas"}>
+      <Link className={styles.icon} to={"/mascotas"}>
         <MdPets className={styles.icon} />
       </Link>
-      <Link to={"/turnos"}>
+      <Link className={styles.icon} to={"/turnos"}>
         <IoTicket className={styles.icon} />
       </Link>
-      <Link to={"/personal"}>
+      <Link className={styles.icon} to={"/personal"}>
         <HiUserGroup className={styles.icon} />
       </Link>
     </nav>

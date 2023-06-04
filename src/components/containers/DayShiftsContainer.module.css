@@ -2,7 +2,6 @@
   width: 90%;
   height: 90%;
   border-radius:1rem ;
-  background-color: azure;
   
   overflow-y: scroll;
   
@@ -19,6 +18,8 @@
   place-self: center;
 
   border: 1px solid black;
+
+  padding: 1rem;
 }
 
 .title{

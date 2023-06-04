@@ -1,7 +1,10 @@
 import Shift from "../Shift";
 import styles from "./DayShiftsContainer.module.css";
+import useShiftsFetch from "../hooks/useShiftsFetch";
 
 function DayShiftsContainer() {
+  // const { shifts } = useShiftsFetch();
+
   const shiftsMock = [
     {
       id: 1,
@@ -44,7 +47,7 @@ function DayShiftsContainer() {
       place: "Box 2",
     },
     {
-      id: 2,
+      id: 5,
       name: "Oscu",
       species: "Perro",
       breed: "Dogo",
@@ -54,7 +57,7 @@ function DayShiftsContainer() {
       place: "Box 2",
     },
     {
-      id: 3,
+      id: 6,
       name: "Magic",
       species: "Gato",
       breed: "Domestico",
@@ -64,7 +67,7 @@ function DayShiftsContainer() {
       place: "Box 1",
     },
     {
-      id: 4,
+      id: 7,
       name: "Slike",
       species: "Perro",
       breed: "Ovejero Alemán",
