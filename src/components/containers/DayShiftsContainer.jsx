@@ -43,6 +43,36 @@ function DayShiftsContainer() {
       shiftType: "Veterinaria",
       place: "Box 2",
     },
+    {
+      id: 2,
+      name: "Oscu",
+      species: "Perro",
+      breed: "Dogo",
+      age: "1 año",
+      shiftHour: "16:00",
+      shiftType: "Veterinaria",
+      place: "Box 2",
+    },
+    {
+      id: 3,
+      name: "Magic",
+      species: "Gato",
+      breed: "Domestico",
+      age: "7 meses",
+      shiftHour: "16:00",
+      shiftType: "Veterinaria",
+      place: "Box 1",
+    },
+    {
+      id: 4,
+      name: "Slike",
+      species: "Perro",
+      breed: "Ovejero Alemán",
+      age: "3 años",
+      shiftHour: "13:00",
+      shiftType: "Veterinaria",
+      place: "Box 2",
+    },
   ];
 
   return (
